@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    color: beige;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    max-width: 400px;
+    padding: .8rem .5rem;
+    font-size: 1.5rem;
+    border-radius: .4rem;
+    border: none;
+    background-color: deepskyblue;
+    color: black;
+    box-shadow: 0 4px 0 0 darkcyan;
+    cursor: pointer;
+    transition: all .300s ease;
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 0 0 0 0;
+}
